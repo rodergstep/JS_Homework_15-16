@@ -16,11 +16,11 @@ function getData(word, quantity) {
     }
     xhr.send();
     }
-    console.log(xhr);
 
     $('.start').on('click', function() {
     $("img").remove()
     var inputValue = $('.text-field').val();
     getData(inputValue, 6);
 });
-  
+
+                 
