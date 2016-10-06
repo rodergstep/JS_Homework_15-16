@@ -18,7 +18,7 @@ function getData(word, quantity) {
     }
 
     $('.start').on('click', function() {
-    $("img").remove()
+    $("img").remove();
     var inputValue = $('.text-field').val();
     getData(inputValue, 6);
 });
@@ -26,7 +26,7 @@ function getData(word, quantity) {
                  /*CLASSES*/
 
 function Human() {
-    this.name = "Oleksa";
+    this.name = name || "Oleksa";
     this.age = 33;
     this.male = true;
     this.height = 200;
